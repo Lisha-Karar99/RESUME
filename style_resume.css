@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+    margin: 50px;
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profile .image{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.profile h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.container .left{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+}
+
+.contactInfo{
+    padding-top: 30px;
+}
+
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a3f4;
+}
+
+.contactInfo ul li span{
+    color: white;
+    font-weight: 300;
+}
+
+.about{
+    padding-top: 30px;
+}
+
+.about ul{
+    position: relative;
+}
+
+.about_1{
+    font-size: 14px;
+    color: blanchedalmond;
+
+}
+.about_2{
+    font-size: 14px;
+    color: #03a3f4;
+
+}
+
+.about ul li{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.about ul li span{
+    color: white;
+    font-weight: 300;
+    
+}
+
+.about ul li .about_2{
+    display: inline-block;
+    color: #03a3f4;
+}
+
+.language{
+    padding-top: 30px;
+}
+
+.language ul li{
+    list-style: none;
+}
+.language ul li span{
+    color: white;
+    font-weight: 300;
+}
+
+.language .percent{
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background-color: thistle;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a3f4;
+}
+
+.interest{
+    padding-top: 30px;
+}
+
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.interest ul li{
+    list-style: none;
+    color: white;
+    font-weight: 300;
+}
+
+.interest ul li .fa{
+    width: 20px;
+    font-size: 18px;
+    color: #03a3f4;
+}
+
+.container .right{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.title2{
+    color: #0f394e;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.profile_1{
+    margin-bottom: 20px;
+
+}
+
+.profile_1:last-child{
+    margin-bottom: 0;
+}
+
+p{
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.education ul li{
+    list-style: none;
+}
+.education h3{
+    color: #0c5b83;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.education h5{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 3px;
+    font-stretch: extra-expanded;
+}
+.skill{
+    padding-top: 20px;
+}
+
+.skill{
+    padding-top: 20px;
+}
+
+.skill ul li{
+    list-style: none;
+}
+.skill ul li span{
+    color: #1a7bac;
+    font-weight: 300;
+}
+
+.skill .percent{
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: thistle;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.skill .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a3f4;
+}
+
+.project{
+    padding-top: 20px;
+}
+
+.project h3{
+    color: #1a7bac;
+    padding-bottom: 5px;
+}
+
+.project ul li{
+    list-style: none;
+}
